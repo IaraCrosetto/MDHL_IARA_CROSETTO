@@ -17,11 +17,12 @@ nav .navBarInformation{
     justify-content: space-between;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.811);
+    z-index: 2;
 }
 nav h1,a{
     text-transform: uppercase;
     font-weight: normal;
-    margin: 0 2em;
+    margin-left: 2em;
 }
 button{
     background-color: rgba(255, 255, 255, 0);
@@ -39,7 +40,7 @@ button :hover{
 .banner img{
     margin-top: 4em;
     width: 100%;
-    height: 35em;
+    height: 30em;
     object-fit: cover;
 }
 .banner h2{
@@ -72,8 +73,7 @@ button :hover{
     width: 8em;
 }
 .main ul{
-    margin-left: 3em;
-    
+    margin-left: 3em;  
 }
 .main li{
     list-style: none;
@@ -92,4 +92,55 @@ button :hover{
 .contactInformation a{
     text-decoration: underline;
     color: rgb(118,151,203);
+}
+/*Main More Information*/
+.mainMoreInformation{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    border-radius: 0.5em;
+    translate: 0 -10em;
+    border: 1px outset rgba(128, 128, 128, 0.349) ;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.08);
+}
+.containerMoreInformation{
+    display: flex;
+    justify-content: center;
+}
+.rules, .gameInformation{
+    padding: 1em 4em 4em 4em;
+}
+.rulesTitle, .gameInfoTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ol .secondList{
+    list-style: lower-alpha;
+}
+.lastList li{
+    list-style-type: circle;
+}
+ol, ul{
+    padding: revert;
+}
+table{
+    border-spacing: 1.5em;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+}
+.mainMoreInformation h1{
+    font-weight: normal;
+    text-align: center;
+}
+.gameInfo{
+    margin-left: 1.5em;
+}
+#sub{
+    text-decoration: underline;
+}
+.lastP{
+    display: flex;
+    justify-content: space-between;
 }
