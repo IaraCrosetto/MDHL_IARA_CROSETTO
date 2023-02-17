@@ -102,14 +102,22 @@ button :hover{
     border: 1px outset rgba(128, 128, 128, 0.349) ;
     box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.08);
 }
+.mainMoreInformationForm{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    border-radius: 0.5em;
+    translate: 0 10em;
+    border: 1px outset rgba(128, 128, 128, 0.468) ;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.08);
+}
 .containerMoreInformation{
     display: flex;
     justify-content: center;
 }
-.rules, .gameInformation{
+.rules, .gameInformation, .registration{
     padding: 1em 4em 4em 4em;
 }
-.rulesTitle, .gameInfoTitle{
+.rulesTitle, .gameInfoTitle, .registration{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,4 +151,15 @@ table{
 .lastP{
     display: flex;
     justify-content: space-between;
+}
+/*Form*/
+select[multiple] {
+    vertical-align: top;
+}
+fieldset{
+    padding: 1em;
+    margin: 1em 0;
+}
+.registration header{
+    padding: 1.5em;
 }
